@@ -1,0 +1,12 @@
+body {
+    background: #ccc;
+    color: #333;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+
+*::selection {
+    background: #01B6FD;
+}

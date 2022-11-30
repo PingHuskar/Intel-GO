@@ -3,7 +3,7 @@
   
     "name": "Intel GO",
     "description": "Open Intel at Your Current Location",
-    "version": "1.2.1",
+    "version": "1.1.1",
     "icons": {
       "128": "icon128.png",
       "32": "icon32.png",
@@ -17,6 +17,7 @@
     "permissions": [
      "tabs",
      "geolocation"
-  ]
+  ],
+  "options_page": "options.html"
   }
   
