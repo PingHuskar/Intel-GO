@@ -1,23 +1,20 @@
 {
-    "manifest_version": 2,
-  
-    "name": "Intel GO",
-    "description": "Open Intel at Your Current Location",
-    "version": "1.1.1",
-    "icons": {
+  "name": "Intel GO",
+  "description": "Open Intel at Your Current Location",
+  "version": "0.0.1",
+  "icons": {
       "128": "icon128.png",
       "32": "icon32.png",
       "16": "icon16.png"
     },
-  
-    "browser_action": {
+  "manifest_version": 3,
+  "action": {
+      "default_title": "Intel GO",
       "default_icon": "icon16.png",
       "default_popup": "popup.html"
-    },
-    "permissions": [
-     "tabs",
-     "geolocation"
-  ],
-  "options_page": "options.html"
-  }
-  
+  },
+  "options_page": "options.html",
+  "permissions": [
+      "geolocation"
+  ]
+}
